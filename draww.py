@@ -28,7 +28,6 @@ class DrawCode():
 
 
     def write_chars(self,word):
-        print(self.font_size)
         x_pos = 0
         for lett in word:
             x =( (self.image.width + self.font_size) / (len(word)+1) * x_pos)
