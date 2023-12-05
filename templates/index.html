@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Captcha</title>
+	<link rel="stylesheet" href="/static/simble.css">
+	<link rel="icon" type="" href="/static/favicon.ico">
+</head>
+
+<body>
+	<section>
+		<h1>Verify you are a human</h1>
+		<section role="box" style="max-width: 200px;">
+			<h3>Enter The Code Below</h3>
+			<img id='cap-img' src="/static/media/{{path}}.png" alt="">
+				<input type="text" name="" id="code-input" placeholder="The Code">
+			<section role="row" >
+				<button onclick='sbmt()'>submit</button>
+				<button onclick='neww()'>new</button>
+			</section>
+
+			<p hidden id="msg">Correct</p>
+		</section>
+	</section>
+
+	<script src='/static/app.js' defer> </script>
+</body>
+
+</html>
