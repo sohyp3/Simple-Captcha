@@ -6,7 +6,7 @@ with simple Web interface using `FastAPI` to verify/generate new images.
 
 # How to Run
 
-1. install the packages: `pip install Pillow "uvicorn[standard]" fastapi jinja2`
+1. install the packages: `pip install -r requirements.txt`
 _you may need to use venv_
 2. `git clone https://github.com/sohyp3/Simple-Captcha `
 3. `cd Simple-Captcha`
@@ -14,5 +14,5 @@ _you may need to use venv_
 
 --- 
 
-![screenshot](/static/readme_img.png)
+![screenshot](static/readme_img.png)
 
