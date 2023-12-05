@@ -1,0 +1,4 @@
+Pillow
+uvicorn[standard]
+fastapi
+jinja2
